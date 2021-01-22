@@ -27,12 +27,12 @@ rm <file>       删除文件。示例：rm tips2.txt（会询问是否删除，�
 ctrl + c	终止当前任务。
 
 tab		快速补全。当你输入某个命令或者文件名时，例如输入pass后按tab就会补全为passwd。输入pas时无法直接补全，因为有多个命令是pas开头的。
-		这时按两次tab就会显示所有pas开头的命令。输入文件名时可以自动匹配文件，例如输入cat t后按tab就会补全成cat tips.txt 。
+		这时按两次tab就会显示所有pas开头的命令。输入文件名时可以自动匹配文件，例如输入cat B后按tab就会补全成cat BeginnerTips.txt 。
 
 常用软件：
 
 vim <file name> 
-使用vim编辑文件。示例：vim tips.txt
+使用vim编辑文件。示例：vim tips2.txt
 建议前往 https://www.runoob.com/linux/linux-vim.html 学习使用vim。
 进入vim时为普通模式，此模式下无法插入文字。但可以使用一些快捷键。
 按下i进入INSERT模式，在此模式下可插入文字。（此模式左下角有--INSERT--字样）
