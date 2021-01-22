@@ -57,3 +57,5 @@ python <file.py>	运行python程序。示例：python hello.py
 javac <file.java>	编译java源代码。默认输出.class字节码程序。
 java <file.class>	运行字节码程序。
 
+使用shell脚本前先编辑好脚本。
+sh <file.sh>	运行shell脚本。示例：sh git_push.sh
