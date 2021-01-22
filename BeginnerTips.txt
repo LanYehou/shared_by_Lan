@@ -1,0 +1,59 @@
+常用命令：
+passwd  更改密码。
+
+ls      查看当前目录下的所有文件。
+
+cd <directory>  切换到目录。示例：cd shared_by_Lan
+		示例2：cd ..（前往上一级目录。）
+		示例3：cd（返回家目录。）
+		示例4：cd /（进入根目录）
+
+cp <file> <directory>   复制。示例：cp BeginnerTips.txt shared_by_Lan
+			示例2：cp BeginnerTips.txt tips.txt
+
+mv <file> <directory>   移动文件。示例：mv BeginnerTips.txt shared_by_Lan
+			示例2：mv tips.txt tips2.txt （示例2的效果等同于重命名。）
+
+mkdir <directory name>  新建目录。示例：mkdir newdir
+
+cat <file>      查看文件内容。示例：cat BeginnerTips.txt
+
+rm <file>       删除文件。示例：rm tips2.txt（会询问是否删除，输入y确认，输入n取消）
+		示例2：rm -r newdir （对于目录下的每一个文件，都会询问你是否删除。）
+		示例3：rm -rf newdir （直接删除，不询问。）
+		（！！！非常重要：这里没有回收站，删除了就没有了。所以不要随便删除文件。）
+
+快捷键：
+ctrl + c	终止当前任务。
+
+tab		快速补全。当你输入某个命令或者文件名时，例如输入pass后按tab就会补全为passwd。输入pas时无法直接补全，因为有多个命令是pas开头的。
+		这时按两次tab就会显示所有pas开头的命令。输入文件名时可以自动匹配文件，例如输入cat t后按tab就会补全成cat tips.txt 。
+
+常用软件：
+
+vim <file name> 
+使用vim编辑文件。示例：vim tips.txt
+建议前往 https://www.runoob.com/linux/linux-vim.html 学习使用vim。
+进入vim时为普通模式，此模式下无法插入文字。但可以使用一些快捷键。
+按下i进入INSERT模式，在此模式下可插入文字。（此模式左下角有--INSERT--字样）
+按下ESC回到普通模式，在此模式下输入:可进入命令模式。（此模式左下角有一个:）
+在命令模式下输入w保存文件，输入wq保存并退出，输入q!直接退出不保存。
+
+
+git clone <https://github.com/...>      从github上克隆库。示例：git clone https://github.com/LanYehou/shared_by_Lan.git
+git add -all    添加所有新文件。
+git commit      提交更新。
+git push        上传更新到服务器。
+git pull        拉取服务器上的更新。
+
+gcc <file.c>    编译c语音源文件。示例：gcc hello.c （默认输出的程序为a.out）
+
+./<program>	运行程序。示例：./a.out
+
+使用python前要先用vim编辑好程序。如果不会vim可以先用此命令生成一个：echo "print('hello python')" >> hello.py
+python <file.py>	运行python程序。示例：python hello.py
+
+使用java前要先用vim编辑好程序。
+javac <file.java>	编译java源代码。默认输出.class字节码程序。
+java <file.class>	运行字节码程序。
+
